@@ -30,7 +30,7 @@ Pastikan Anda telah menginstal **Python (Versi 3.8+)**.
 
 Buat *virtual environment* dan instal dependensi yang tercantum dalam `requirements.txt`:
 
-```bash
+
 # Instal pustaka yang dibutuhkan
 pip install -r requirements.txt
 
@@ -40,3 +40,6 @@ $env:GEMINI_API_KEY="[PASTE_KUNCI_API_LENGKAP_ANDA_DI_SINI]"
 
 ### 4. Jalankan Aplikasi
 python -m streamlit run app.py
+
+by: Hana Rohadah 2025
+```bash
