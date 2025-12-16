@@ -74,7 +74,7 @@ def generate_definition_with_ai(competency_list):
     """
     
     # 1. Ambil API Key dari environment variable
-    api_key = os.environ.get("AIzaSyBW3XamS_Smay4wOUdFQpzxgBq75ZDvB5Q") 
+    api_key = os.environ.get("GEMINI_API_KEY") 
     
     if not api_key:
         # Jika kunci tidak ditemukan, langsung fallback
@@ -190,4 +190,5 @@ Penanganan Pakan Ayam (Nutrisi dan Komposisi)
 
 # Jalankan Aplikasi
 if __name__ == "__main__":
+
     main()
